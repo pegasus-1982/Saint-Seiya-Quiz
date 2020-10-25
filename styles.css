@@ -1,0 +1,89 @@
+h4 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 24px;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: #247BA0;
+    color: white;
+  }
+
+
+
+.card {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    margin-left: 40px;
+   
+    
+}
+
+.card-img-top {
+    width: 100px;
+    height: auto;
+}
+
+.questions {
+    background-color: black;
+    height: 100vh;  
+    width: 100%;
+}
+
+#Question1,
+#Question2,
+#Question3,
+#Question4,
+#Question5,
+#Question6 {
+    display: none;
+}
+
+.correct,
+.incorrect {
+    display: none;
+}
+
+.map {
+    background-image: url(./pictures/12-casas.jpg);
+    background-size: 800px, 800px;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+
+    height: 100vh;  
+    width: 100%;
+}
+
+
+.score {
+    float: left;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    display: none;
+}
+
+.timer {
+    float: right;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+

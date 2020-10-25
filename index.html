@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="styles.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Saint-Seiya-Quiz</title>
+</head>
+
+
+<body>
+
+  <div class="container">
+
+    <div class="row no-gutters">
+      <div class="col-4 no-gutters">
+        
+        <div class="questions" id="quizQuestions"> -->
+
+          <div class="card" id="Question1" style="width: 18rem;">
+            <img src="https://static.wikia.nocookie.net/saintseiya/images/a/a2/Aries_muu23.png/revision/latest/scale-to-width-down/300?cb=20140629043817" class="card-img-top" class = "Mu" alt="Mu de Aries">
+            <div class="card-body">
+              <h5 class="card-title">Question #1. Aries Battle</h5>
+              <p class="card-text">The following is one of Aries`s techniques: </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <button id="correctAnswerCount" type="button" class="btn btn-secondary goto2">Crstal Wall</button>
+              <button id="wrongAnswer" type="button" class="btn btn-secondary goto2">Scarlet Needle</button>
+              <button id = "wrongAnswer" type="button" class="btn btn-secondary goto2">Sacred Sword Excalibur</button>
+              
+            </ul>
+            <div class="card-body">
+              <li class="correct">Correct!!!</li>
+              
+              <li class="incorrect">You will do better next time</li>
+            </div>
+          </div>
+
+
+
+          <div class="card" id="Question2" style="width: 18rem;">
+            <img src="https://static.wikia.nocookie.net/saintseiya/images/2/2a/Gold_Taurus_Aldebaran.jpeg/revision/latest?cb=20130521111326" class="card-img-top" class = "Aldebaran" alt="Aldebaran Taurus">
+            <div class="card-body">
+              <h5 class="card-title">Question #2. Taurus Battle</h5>
+              <p class="card-text">Who is Alebaran´s opponent? </p>
+            </div>
+            <ul class="list-group list-group-flush" class="answerButtons" class="btn-grid">
+              <button id="wrongAnswer" type="button" class="btn btn-secondary goto3">Hyoga</button>
+              <button id="wrongAnswer" type="button" class="btn btn-secondary goto3">Shun</button>
+              <button id="correctAnswerCount2" type="button" class="btn btn-secondary goto3">Seiya</button>
+              
+            </ul>
+            <div class="card-body">
+              <li class="correct">Correct!!!</li>
+              
+              <li class="incorrect">Cosmos is inside you, try harder next time</li>
+            </div>
+          </div>
+
+          <div class="card" id="Question3" style="width: 18rem;">
+            <img src="https://static.wikia.nocookie.net/saintseiya/images/1/12/Gold_Saint_3-Gemini_Saga-1.png/revision/latest/scale-to-width-down/350?cb=20170714032839" class="card-img-top" class = "Saga" alt="Saga Geminis">
+            <div class="card-body">
+              <h5 class="card-title">Question #3. Geminis Battle</h5>
+              <p class="card-text">What is the name of Saga`s twin brother? </p>
+            </div>
+            <ul class="list-group list-group-flush" class="answerButtons" class="btn-grid">
+              <button id="wrongAnswer" type="button" class="btn btn-secondary goto4">Airos</button>
+              <button id="correctAnswerCount3" type="button" class="btn btn-secondary goto4">Kanon</button>
+              <button id ="wrongAnswer" type="button" class="btn btn-secondary goto4">Sigfried</button>
+              
+            </ul>
+            <div class="card-body">
+              <li class="correct">Correct!!!</li>
+              
+              <li class="incorrect">Cosmos is inside you, try harder next time</li>
+            </div>
+          </div>
+
+          <div class="card" id="Question4" style="width: 18rem;">
+            <img src="https://static.wikia.nocookie.net/saintseiya/images/0/0f/Death_Mask_cancer.png/revision/latest/scale-to-width-down/337?cb=20130712021003" class="card-img-top" class = "Deathmask" alt="Deathmask Cancer">
+            <div class="card-body">
+              <h5 class="card-title">Question #4. Cancer Battle</h5>
+              <p class="card-text">Who is Deathmask´s oponent? </p>
+            </div>
+            <ul class="list-group list-group-flush" class="answerButtons" class="btn-grid">
+              <button id="correctAnswerCount4" type="button" class="btn btn-secondary goto5">Shiryu</button>
+              <button id="wrongAnswer" type="button" class="btn btn-secondary goto5">Pegasus</button>
+              <button id="wrongAnswer" type="button" class="btn btn-secondary goto5">Ikki</button>
+              
+            </ul>
+            <div class="card-body">
+              <li class="correct">Correct!!!</li>
+              
+              <li class="incorrect">Cosmos is inside you, try harder next time</li>
+            </div>
+          </div>
+
+          <div class="card" id="Question5" style="width: 18rem;">
+            <img src="https://static.wikia.nocookie.net/saintseiya/images/4/44/Leo_Aiolia_Profile.png/revision/latest/scale-to-width-down/300?cb=20150414120119" class="card-img-top" class = "Aiolia" alt="Aiolia Leo">
+            <div class="card-body">
+              <h5 class="card-title">Question #5. Leo Battle</h5>
+              <p class="card-text">Who saved Seiya from dying in Leo`s house ? </p>
+            </div>
+            <ul class="list-group list-group-flush" class="answerButtons" class="btn-grid">
+              <button id="wrongAnswer" type="button" class="btn btn-secondary goto6">Marin</button>
+              <button id="correctAnswerCount5" type="button" class="btn btn-secondary goto6">Cassios</button>
+              <button id="wrongAnswer" type="button" class="btn btn-secondary goto6">Sagittarius</button>
+              
+            </ul>
+            <div class="card-body">
+              <li class="correct">Correct!!!</li>
+              
+              <li class="incorrect">Cosmos is inside you, try harder next time</li>
+            </div>
+          </div>
+
+          <div class="card" id="Question6" style="width: 18rem;">
+            <img src="https://static.wikia.nocookie.net/saintseiya/images/1/18/Virgo_Shaka.jpg/revision/latest/scale-to-width-down/249?cb=20130712021757" class="card-img-top" class = "Shaka" alt="Shaka no Virgo">
+            <div class="card-body">
+              <h5 class="card-title">Question #6. Virgo Battle</h5>
+              <p class="card-text">Shaka is known as: </p>
+            </div>
+            <ul class="list-group list-group-flush" class="answerButtons" class="btn-grid">
+              <button id="wrongAnswer" type="button" class="btn btn-secondary goto7">most loyal Saint to Athena</button>
+              
+              <button id="correctAnswerCount6" type="button" class="btn btn-secondary goto7">the man who is almost a god</button>
+              
+            </ul>
+            <div class="card-body">
+              <li class="correct">Correct!!!</li>
+              
+              <li class="incorrect">Cosmos is inside you, try harder next time</li>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="col-8 no-gutters">       
+        <div class="map">
+
+          <div col-4 class="Start">
+            
+            <button id="startGame" type="button" class="btn btn-success">Start Game</button>
+
+          </div>
+
+          <div col-4 class="score">
+            
+            <h4>Score: <span id="count">0</span></h4>
+          </div>
+
+          <div col-4 class="timer">
+            
+            <h1 class="time"></h1>
+            <div id="main"></div>
+            
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+      
+
+  
+
+  
+  
+
+  
+
+    
+
+</body>
+
+
+<script src="./script.js"></script>
+
+</html>
